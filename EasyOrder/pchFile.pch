@@ -1,0 +1,41 @@
+//
+//  pchFile.pch
+//  DoctorEasyMedical
+//
+//  Created by sss on 16/5/19.
+//  Copyright © 2016年 sss. All rights reserved.
+//
+
+#ifndef pchFile_pch
+#define pchFile_pch
+
+/**
+ *  第三方库
+ */
+
+//#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+/**
+ *  自定义
+ */
+#import "CommonMacro.h"
+#import "BaseRequest.h"
+#import "NSMutableArray+Additional.h"
+#import "BaseCell.h"
+#import "BaseViewController.h"
+#import "MJRefreshViewController.h"
+#import "NSString+Additional.h"
+#import "BaseModel.h"
+#import "BaseTableViewController.h"
+#import "WQProgressHUD.h"
+#import "AppDelegate.h"
+#import "Global.h"
+#import "WQAlertView.h"
+#import "CustomBarButtonItem.h"
+#import "UIView+Extension.h"
+
+#endif /* pchFile_pch */
